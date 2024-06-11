@@ -1,0 +1,84 @@
+/* Setting the margin top to be zero for all */
+* {
+  margin-top: 0;
+}
+
+/* adding in the fonts for to be used */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#top-header {
+  width: 93.9%;
+  display: flex;
+  padding-left: 100px;
+  margin-left: -10px;
+  background-color: #ff4800;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.8;
+  font-family: "Montserrat", sans-serif;
+}
+
+#contact-details a {
+  color: #fff;
+}
+
+#contact-details :nth-child(1) {
+  padding-right: 40px;
+}
+
+#donate {
+  padding-right: 100px;
+}
+
+#donate button {
+  border: 2px solid black;
+  padding: 20px 40px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  background: black;
+}
+
+/* styling the nav bar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+#nav-links {
+    padding-top: 40px;
+}
+
+#nav-links span {
+   padding-right: 40px;
+} 
+
+nav img {
+    height: 100px;
+    width: 100px;
+}
+
+#nav-links span a{
+color:black;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.links a:hover, .links a:active{
+    border-bottom: 3px solid #ff5a00;
+    color: #ff5a00;
+}
+
