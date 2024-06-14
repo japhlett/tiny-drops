@@ -10,9 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/swiper.css">
-
+    <link rel="stylesheet" href="./css/swiper.css">
 </head>
 
 <body>
@@ -112,7 +115,7 @@
         <div id="upcoming-events">
             <h2 class='h2-header'>Upcoming Events</h2>
             <div class="event-details">
-                <img src="./assets/images/fundraising_kids.jpg" alt="">
+                <img src="./assets/images/funds.png" alt="">
                 <div class="details-text">
                     <h3>
                         <a href="">Fundraiser for Kids</a>
@@ -122,7 +125,7 @@
                         <a href="">
                             Ball Room New York</a>
                     </span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum.</p>
                     <a href="" class="read-more">Read More</a>
                 </div>
             </div>
@@ -137,12 +140,12 @@
                         <a href="">
                             Ball Room New York</a>
                     </span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum </p>
                     <a href="" class="read-more">Read More</a>
                 </div>
             </div>
             <div class="event-details">
-                <img src="./assets/images/feeding_kids.jpg" alt="">
+                <img src="./assets/images/feed_kids.png" alt="">
                 <div class="details-text">
                     <h3>
                         <a href="">Bring food to the kids</a>
@@ -152,7 +155,7 @@
                         <a href="">
                             Ball Room New York</a>
                     </span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum</p>
                     <a href="" class="read-more">Read More</a>
                 </div>
             </div>
@@ -161,7 +164,7 @@
             <h2 class='h2-header'>Featured Cause</h2>
             <div class="featured-con">
                 <div class="featured-cause-bg">
-                        <img src="./assets/images/welcome_side_img.jpg" alt="">
+                    <img src="./assets/images/fundraising_kids.jpg" alt="">
                     <div class="event-details">
                         <div class="details-text">
                             <h3>
@@ -172,17 +175,19 @@
                                 <a href="">
                                     Ball Room New York</a>
                             </span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum
-                                mauris.</p>
-                            <a href="" class="btn-1">Donate Now</a>
+                            <p class='fd-p'>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. <br> Mauris
+                                tempus vestib ulum <br> mauris. Lorem ipsum dolor sit <br>amet, consectetur.</p>
+                            <a href="" class="btn-1 fd-btn">Donate Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="fund-raised">
                     <div class="funds">
-                        <div class="funds-percentage">83%</div>
+                        <div class="funds-percentage">
+                            <span>83%</span>
+                        </div>
                     </div>
-                    <div>
+                    <div class="amount">
                         <span>Raised: $56 880</span>
                         <span>Goal: $70 000</span>
                     </div>
@@ -191,6 +196,236 @@
         </div>
     </section>
 
+    <!-- Our causes -->
+    <section id="our-causes">
+        <h2 class='h2-header h2-o'>Our Causes</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="details-text swip-t">
+                        <img src="./assets/images/charity_hero_bg.jpg" alt="">
+                        <h3>
+                            <a href="">Fundraiser for Kids</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib <br> ulum
+                            mauris.</p>
+                        <div class="fundz">
+                            <div class="fundz-percentage">
+                                <span>67%</span>
+                            </div>
+                        </div>
+                        <div class="amounts">
+                            <span>Raised: $4 690</span>
+                            <span>Goal: $7 000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="details-text swip-t">
+                        <img src="./assets/images/bring_food.png" alt="">
+                        <h3>
+                            <a href="">Bring food to the kids</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib <br> ulum
+                            mauris.</p>
+                        <div class="fundz">
+                            <div class="fundz-percentage-1">
+                                <span>43%</span>
+                            </div>
+                        </div>
+                        <div class="amounts">
+                            <span>Raised: $8 600</span>
+                            <span>Goal: $20 000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="details-text swip-t">
+                        <img src="./assets/images/drink_water.jpg" alt="">
+                        <h3>
+                            <a href="">Bring water to the children</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib <br> ulum
+                            mauris.</p>
+                        <div class="fundz">
+                            <div class="fundz-percentage-2">
+                                <span>52%</span>
+                            </div>
+                        </div>
+                        <div class="amounts">
+                            <span>Raised: $7 800</span>
+                            <span>Goal: $15 000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="details-text swip-t">
+                        <img src="./assets/images/charity_hero_bg.jpg" alt="">
+                        <h3>
+                            <a href="">Fundraiser for Kids</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib <br> ulum
+                            mauris.</p>
+                        <div class="fundz">
+                            <div class="fundz-percentage">
+                                <span>67%</span>
+                            </div>
+                        </div>
+                        <div class="amounts">
+                            <span>Raised: $4 690</span>
+                            <span>Goal: $7 000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="details-text swip-t">
+                        <img src="./assets/images/bring_food.png" alt="">
+                        <h3>
+                            <a href="">Bring food to the kids</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib <br> ulum
+                            mauris.</p>
+                        <div class="fundz">
+                            <div class="fundz-percentage-1">
+                                <span>43%</span>
+                            </div>
+                        </div>
+                        <div class="amounts">
+                            <span>Raised: $8 600</span>
+                            <span>Goal: $20 000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="details-text swip-t">
+                        <img src="./assets/images/drink_water.jpg" alt="">
+                        <h3>
+                            <a href="">Bring water to the children</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib <br> ulum
+                            mauris.</p>
+                        <div class="fundz">
+                            <div class="fundz-percentage-2">
+                                <span>52%</span>
+                            </div>
+                        </div>
+                        <div class="amounts">
+                            <span>Raised: $7 800</span>
+                            <span>Goal: $15 000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="details-text swip-t">
+                        <img src="./assets/images/charity_hero_bg.jpg" alt="">
+                        <h3>
+                            <a href="">Fundraiser for Kids</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib <br> ulum
+                            mauris.</p>
+                        <div class="fundz">
+                            <div class="fundz-percentage">
+                                <span>67%</span>
+                            </div>
+                        </div>
+                        <div class="amounts">
+                            <span>Raised: $4 690</span>
+                            <span>Goal: $7 000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="details-text swip-t">
+                        <img src="./assets/images/bring_food.png" alt="">
+                        <h3>
+                            <a href="">Bring food to the kids</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib <br> ulum
+                            mauris.</p>
+                        <div class="fundz">
+                            <div class="fundz-percentage-1">
+                                <span>43%</span>
+                            </div>
+                        </div>
+                        <div class="amounts">
+                            <span>Raised: $8 600</span>
+                            <span>Goal: $20 000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="details-text swip-t">
+                        <img src="./assets/images/drink_water.jpg" alt="">
+                        <h3>
+                            <a href="">Bring water to the children</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib <br> ulum
+                            mauris.</p>
+                        <div class="fundz">
+                            <div class="fundz-percentage-2">
+                                <span>52%</span>
+                            </div>
+                        </div>
+                        <div class="amounts">
+                            <span>Raised: $7 800</span>
+                            <span>Goal: $15 000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section id='footer'>
+    <div id="about-footer">
+        <img src="./assets/logos/tiny-drops-high-resolution-logo-transparent.png" alt="">
+        <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Mauris temp us vestib ulum mauris.Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.Lorem ipsum dolo.</p>
+        <div id="footer-socials">
+            <a href=""><i class="fa-brands fa-pinterest-p" style="color: #ffffff;"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+            <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+            <a href=""><i class="fa-brands fa-dribbble" style="color: #ffffff;"></i></a>
+            <a href=""><i class="fa-brands fa-behance" style="color: #ffffff;"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in" style="color: #fcfcfc;"></i></a>
+        </div>
+    </div>
+    <div id="useful-links">
+        <h2>Useful Links</h2>
+        <div id="use-li">
+            <a href="">Privacy Polticy</a>
+            <a href="">Become a Volunteer</a>
+            <a href="">Donate</a>
+            <a href="">Testimonials</a>
+            <a href="">Causes</a>
+            <a href="">Portfolio</a>
+            <a href="">News</a>
+        </div>
+    </div>
+    <div>
+        <h2>Latest News</h2>
+        <div>
+            <a href="">A new cause to help</a>
+            <p>March 12, 2018</p>
+        </div>
+        <div>
+            <a href="">We love to help people</a>
+            <p>December 2, 2007</p>
+        </div>
+        <div>
+            <a href="">The new ideas for helping</a>
+            <p>August 24, 2023</p>
+        </div>
+    </div>
+    <div>
+       <h2>Contact</h2>
+    </div>
+    <section>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
     <script src="./js/index.js"></script>
 
 </body>
